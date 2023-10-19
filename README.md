@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# Sobre a Aplicação
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Utilização de ReactJS + Typescript para criação de uma interface, segura e autenticada.
+- Estilização com Tailwind css.
+- Tela de login com opção de cadastrar usuário.
+- Utiliza-se ContextAPI para armazenar dados do usuário e lidar com login/logoff do usuário.
+- Utiliza-se Axios para fazer requisições para a API.
+- Tela da home antes de estar logado irá mostrar uma listagem de produtos caso haja produtos salvos no banco.
+- Tela da home antes de estar logado irá ter o botão da listagem de todos os usuários registrados, podendo
+atualizar seus dados ou deletar os usuários registrados.
+- Foi criado uma interface de login e cadastro de usuários com feedbacks para o usuário, como de campos vazios, e-mail e/ou senha incorretas, e-mail válido.
+- Após usuário logado irá ter uma listagem dos produtos cadastrados do usuário logado. Podendo cadastrar, atualizar e deletar novos produtos. 
+- Aplicação responsiva.
 
-Currently, two official plugins are available:
+________________________
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como executar a aplicação
 
-## Expanding the ESLint configuration
+1.  Execute no terminal na raiz do projeto o comando: `npm install` para instalar todas as dependências;
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2.  Em seguida, para iniciar a aplicação: `npm run dev`;
 
-- Configure the top-level `parserOptions` property like this:
+3. Para acessar a aplicação use a url: `http://127.0.0.1:5173/`
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
