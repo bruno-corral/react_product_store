@@ -22,4 +22,8 @@ ________________________
 
 3. Para acessar a aplicação use a url: `http://127.0.0.1:5173/`
 
+![home](https://github.com/bruno-corral/react_product_store/assets/30707330/866da29a-93c3-4583-ab81-93a7c11fba17)
+
+![home2](https://github.com/bruno-corral/react_product_store/assets/30707330/5793d968-a91c-4ecc-a782-2db9fa36878b)
+
 
